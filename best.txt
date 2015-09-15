@@ -1,0 +1,111 @@
+scp41 429
+scp42 512
+scp43 516
+scp44 494
+scp45 512
+scp46 560
+scp47 430
+scp48 492
+scp49 641
+scp410 514
+
+scp51 253
+scp52 302
+scp53 226
+scp54 242
+scp55 211
+scp56 213
+scp57 293
+scp58 288
+scp59 279
+scp510 265
+
+scp61 138
+scp62 146
+scp63 145
+scp64 131
+scp65 161
+
+scpa1 253
+scpa2 252
+scpa3 232
+scpa4 234
+scpa5 236
+
+scpb1 69
+scpb2 76
+scpb3 80
+scpb4 79
+scpb5 72
+
+scpc1 227
+scpc2 219
+scpc3 243
+scpc4 219
+scpc5 215
+
+scpd1 60
+scpd2 66
+scpd3 72
+scpd4 62
+scpd5 61
+
+scpe1 5
+scpe2 5
+scpe3 5
+scpe4 5
+scpe5 5
+
+scpclr10 25
+scpclr11 23
+scpclr12 23
+scpclr13 23
+
+scpnre1 29
+scpnre2 30
+scpnre3 27
+scpnre4 28
+scpnre5 28
+
+scpnrf1 14
+scpnrf2 15
+scpnrf3 14
+scpnrf4 14
+scpnrf5 13
+
+scpnrg1 176
+scpnrg2 154
+scpnrg3 166
+scpnrg4 168
+scpnrg5 168
+
+scpnrh1 63
+scpnrh2 63
+scpnrh3 59
+scpnrh4 58
+scpnrh5 55
+
+scpcyc06 60
+scpcyc07 144
+scpcyc08 344
+scpcyc09 780
+scpcyc10 1792
+scpcyc11 4103
+
+rail507 174
+rail516 182
+rail582 211
+rail2536 691
+rail2586 948
+rail4284 1065
+rail4872 1534
+
+stn9 5
+stn15 9
+stn27 18
+stn45 30
+stn81 61
+stn135 103
+stn243 198
+stn405 335
+stn729 617
