@@ -162,10 +162,16 @@ Best known solutions
 ## References
 
 [1]: Feo, T. A., & Resende, M. G. (1995). Greedy randomized adaptive search procedures. Journal of global optimization, 6(2), 109-133.
+
 [2]: IBM ILOG CPLEX Optimization Studio. http://www-03.ibm.com/software/products/en/ibmilogcpleoptistud
+
 [3]: Beasley's OR-Library. http://people.brunel.ac.uk/~mastjjb/jeb/orlib/scpinfo.html
+
 [4]: J.E.Beasley "An algorithm for set covering problems" European Journal of Operational Research 31 (1987) 85-93
+
 [5]: J.E.Beasley "A lagrangian heuristic for set-covering problems" Naval Research Logistics 37 (1990) 151-164
+
 [6]: "Computational Experience with Approximation Algorithms for the Set Covering Problem",  by T. Grossman and A. Wool, European Journal of Operational Research 101(1) pages 81-92 (1997)
+
 [7]: Set covering problems derived from Steiner triple systems. http://mauricio.resende.info/data/steiner-triple-covering.tar.gz
 
