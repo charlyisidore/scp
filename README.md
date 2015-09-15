@@ -30,15 +30,11 @@ The reader is referred to [3].
 
 There are currently 87 data files.
 
-50 of these data files are the test problem sets 4 to 6 and 
-A to E from J.E.Beasley "An algorithm for set covering problems" 
-European Journal of Operational Research 31 (1987) 85-93.
+50 of these data files are the test problem sets 4 to 6 and A to E from [4].
 
-Problem sets 4, 5 and 6 are originally from the
-Balas and Ho set covering paper.
+Problem sets 4, 5 and 6 are originally from the Balas and Ho set covering paper.
 
-The following table gives the relationship between these test 
-problem sets and the appropriate files:
+The following table gives the relationship between these test problem sets and the appropriate files:
 
     Problem set        Files
     4                  scp41, ..., scp410
@@ -50,7 +46,7 @@ problem sets and the appropriate files:
     D                  scpd1, ..., scpd5
     E                  scpe1, ..., scpe5
 
-20 of these data files are the test problem sets E to H from [4].
+20 of these data files are the test problem sets E to H from [5].
 
 The following table gives the relationship between these test problem sets and the appropriate files:
 
@@ -60,25 +56,26 @@ The following table gives the relationship between these test problem sets and t
     G                  scpnrg1, ..., scpnrg5
     H                  scpnrh1, ..., scpnrh5
 
-10 of these data files are unicost problems from the paper [5].
+10 of these data files are unicost problems from the paper [6].
 
-The files scpcyc06, ..., scpcyc11 correspond to the CYC set of problems
-(number of edges required to hit every 4-cycle in a hypercube). The
-files scpclr10, ..., scpclr13 correspond to the CLR set of problems
-(number of 4-tuples forming the smallest non-bi-chromatic hypergraph).
+The files scpcyc06, ..., scpcyc11 correspond to the CYC set of problems (number of edges required to hit every 4-cycle in a hypercube).
+The files scpclr10, ..., scpclr13 correspond to the CLR set of problems (number of 4-tuples forming the smallest non-bi-chromatic hypergraph).
 These files have been contributed by A. Wool
 
 The format of all of these 80 data files is:
-number of rows (m), number of columns (n)
-the cost of each column c(j),j=1,...,n
-for each row i (i=1,...,m): the number of columns which cover row i followed by a list of the columns which cover row i
 
-For the files associated with the European Journal of Operational Research paper by Beasley [4]:
+- number of rows (m), number of columns (n)
+- the cost of each column c(j), j=1,...,n
+- for each row i (i=1,...,m): the number of columns which cover row i followed by a list of the columns which cover row i
+
+For the files associated with the European Journal of Operational Research paper by Beasley [5] :
+
 1. the value of the optimal solution for each of these data files is given in the paper
 2. the largest file is scpd5 of size 420Kb (approximately)
 3. the entire set of files is of size 5800Kb (approximately)
 
-For the files associated with the Naval Research Logistics paper [5]:
+For the files associated with the Naval Research Logistics paper [6] :
+
 1. heuristic solution values for each of these data files are given in the paper
 2. the largest file is scpnrh5 of size 2600Kb (approximately)
 
@@ -95,15 +92,15 @@ There are also 7 data files associated with real-world set covering problems. Th
 These data files arise from an application in Italian railways and have been contributed by Paolo Nobili.
 
 As might be expected these problems have a number of special characteristics, specifically:
+
 1. all column costs are either one or two
 2. a column covers at most 12 rows
 3. substantial reductions can be made by applying known row/column reduction tests
 
 The format of these test problems is:
-number of rows (m), number of columns (n)
-for each column j (j=1,...,n): the cost of the column, the
-number of rows that it covers followed by a list of the rows 
-that it covers 
+
+- number of rows (m), number of columns (n)
+- for each column j (j=1,...,n): the cost of the column, the number of rows that it covers followed by a list of the rows  that it covers 
 
 The largest file is rail4284 of size 61Mb (approximately).
 The entire set of files is of size 260Mb (approximately).
@@ -111,7 +108,7 @@ The entire set of files is of size 260Mb (approximately).
 
 ### STN instances
 
-Set covering problems derived from Steiner triple systems [6].
+Set covering problems derived from Steiner triple systems [7].
 
 STEINER TRIPLE COVERING PROBLEM test instances
 
@@ -164,10 +161,11 @@ Best known solutions
 
 ## References
 
-[1] Feo, T. A., & Resende, M. G. (1995). Greedy randomized adaptive search procedures. Journal of global optimization, 6(2), 109-133.
-[2] http://www-03.ibm.com/software/products/en/ibmilogcpleoptistud
-[3] http://people.brunel.ac.uk/~mastjjb/jeb/orlib/scpinfo.html
-[4] J.E.Beasley "A lagrangian heuristic for set-covering problems" Naval Research Logistics 37 (1990) 151-164
-[5] "Computational Experience with Approximation Algorithms for the Set Covering Problem",  by T. Grossman and A. Wool, European Journal of Operational Research 101(1) pages 81-92 (1997)
-[6] http://mauricio.resende.info/data/steiner-triple-covering.tar.gz
+[1]: Feo, T. A., & Resende, M. G. (1995). Greedy randomized adaptive search procedures. Journal of global optimization, 6(2), 109-133.
+[2]: IBM ILOG CPLEX Optimization Studio. http://www-03.ibm.com/software/products/en/ibmilogcpleoptistud
+[3]: Beasley's OR-Library. http://people.brunel.ac.uk/~mastjjb/jeb/orlib/scpinfo.html
+[4]: J.E.Beasley "An algorithm for set covering problems" European Journal of Operational Research 31 (1987) 85-93
+[5]: J.E.Beasley "A lagrangian heuristic for set-covering problems" Naval Research Logistics 37 (1990) 151-164
+[6]: "Computational Experience with Approximation Algorithms for the Set Covering Problem",  by T. Grossman and A. Wool, European Journal of Operational Research 101(1) pages 81-92 (1997)
+[7]: Set covering problems derived from Steiner triple systems. http://mauricio.resende.info/data/steiner-triple-covering.tar.gz
 
